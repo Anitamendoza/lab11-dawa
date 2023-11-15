@@ -1,0 +1,29 @@
+<p>eliminar-tiendas works!</p>
+<app-navbar></app-navbar>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row m-t-sm">
+            <div class="col-md-15">
+                <div class="panel">
+                    <div class="panel-body">
+                        <div class="col-md-12 col-sm-12" id="form" style="display:block;">
+                            <div class="panel panel-filled">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-sm-12"><h5 class="m-t-xs">Eliminar Tienda</h5></div>
+                                    </div>
+                                    <div class="text-center">
+                                        <p>¿Está seguro que desea eliminar esta tienda?</p>
+                                        <button (click)="eliminarTienda()" class="btn btn-danger">Eliminar</button>
+                                        <button routerLink="/listar-tiendas" class="btn btn-warning">Cancelar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</section>
